@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/vinot/Downloads/softwares/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/ons.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/orai18n.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/simplefan.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/ucp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/xdb6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/jar_files/servlet-api-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/jar_files/netty-buffer-4.1.32.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/jar_files/netty-codec-4.1.32.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/jar_files/netty-codec-http-4.1.32.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/jar_files/netty-common-4.1.32.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/jar_files/netty-resolver-4.1.32.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akshay07/Desktop/face/jarfiles for oracle/jar_files/netty-transport-4.1.32.Final.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
