@@ -9,15 +9,15 @@ public class ConnectionManager {
 	public static Connection getConnection() throws Exception 
 	{
 		Properties prop=loadPropertiesFile();
-		String driver=prop.getProperty("driver");
+		String d=prop.getProperty("driver");
 		String url=prop.getProperty("url");
-		String username=prop.getProperty("username");
-		String password=prop.getProperty("password");
+		String user=prop.getProperty("username");
+		String pass=prop.getProperty("password");
 		
 		
-		Class.forName(driver);
+		Class.forName(d);
 		Connection con=null;
- 	con=DriverManager.getConnection(url,username,password);
+ 	con=DriverManager.getConnection(url,user,pass);
 		return con;
 		
 	}
