@@ -15,14 +15,14 @@ public class SkillDAO{
 		
 		List<Skill> l1=new ArrayList<Skill>();
 		Connection con = ConnectionManager.getConnection();
-		Skill skill=null;
+		Skill s=null;
 		String sql="select * from SKILL";
 		PreparedStatement st = con.prepareStatement(sql);
 		ResultSet rs=st.executeQuery(sql);
 		while(rs.next())
 		{
-			skill=new Skill(rs.getLong(1),rs.getString(2));
-			l1.add(skill);
+			s=new Skill(rs.getLong(1),rs.getString(2));
+			l1.add(s);
 		}
 		con.close();
 		
